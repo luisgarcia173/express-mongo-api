@@ -4,40 +4,8 @@ export default {
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
   refreshTokenTtl: '1y',
-  publicKey: `-----BEGIN PUBLIC KEY-----
-  MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBxG77kA1JDFG8dMmLdJYTe
-  iuaOHoFMwexQ/ZzG/0UZfMYcIBCxP47uLRncJI4WudI4eWzFKEySOgVpP4bTDiCI
-  dPoCY1k1qKTjB7i58BQd3uZfXlK5LlP8C5+EduROlb1NnFQ+W5IM+nSJd3uEccJT
-  V+N/0ubgc9tyJG+jlrBI+JMfSxAPReo+O/fwkY/NEfufU7lOwJhbz1PetQpPAL+F
-  UxMVVWl9ZXOeR0rjwdWXhI1b376UTYWyOvLhazW/bG9FD0TjIb2lqS56I7b57C4A
-  Gdrez0FljQaeTCwoWtYx/p5fRgAhXoteJk2nJQCispZSh7Yka7uZlvHWN2izfchB
-  AgMBAAE=
-  -----END PUBLIC KEY-----`,
-  privatekey: `-----BEGIN RSA PRIVATE KEY-----
-  MIIEoQIBAAKCAQBxG77kA1JDFG8dMmLdJYTeiuaOHoFMwexQ/ZzG/0UZfMYcIBCx
-  P47uLRncJI4WudI4eWzFKEySOgVpP4bTDiCIdPoCY1k1qKTjB7i58BQd3uZfXlK5
-  LlP8C5+EduROlb1NnFQ+W5IM+nSJd3uEccJTV+N/0ubgc9tyJG+jlrBI+JMfSxAP
-  Reo+O/fwkY/NEfufU7lOwJhbz1PetQpPAL+FUxMVVWl9ZXOeR0rjwdWXhI1b376U
-  TYWyOvLhazW/bG9FD0TjIb2lqS56I7b57C4AGdrez0FljQaeTCwoWtYx/p5fRgAh
-  XoteJk2nJQCispZSh7Yka7uZlvHWN2izfchBAgMBAAECggEAHdnEt0hpHWr3KC10
-  Cgks186wqjFCzo8fXwCPr7UO93sGjcWooh60Cge9G2xKU5UW9fCV1DKegrjtVKl/
-  W5QO4fR9RsQRdyfa3E/dYLULmhaJlgG+s0CWyZ4Hq131QwghvanUUeC42tP+jYkL
-  ABlFv9kiIUn3xKTO9YDINdQ/EgKs9P0D7pSVhbHeSZnncyLzx+e1r11joce9f2Nq
-  KVElYd6v6kA9bsRn6YIyiVYfm4pLPh+2wdV4iAQliU5KJttWRQm1Oqu2jNSwUSnu
-  z3bRQJIdrRgE/JRJbXJd2b3LPgeSbdkoNP4qAOW/N8uvCvrgnueoNe7PJWhDMw7r
-  NmocAQKBgQDMwhm7PKb9gtPRfvjz/+q31a66L5cbvsTkXZzqxIxUnvaymZeJW89A
-  qSbBgSi+lZi2XruXqw8ilL4YRqr0HjiAiLY/i+gl/dgw+D0R13HCsZW66ne5L4+l
-  9g1eG9yJvWrjh4ll/RpJDPgJ2LEDkdnJpKLVI7Hr4oSjsve9wDjPOQKBgQCNahHw
-  eilnA8OAvQUOOmjCzFD2QTfjZ5akcilFAaS/Zi6lBzmeEuB2AgCf8u28/fxRD+yq
-  FdI+rrTHdcA0h0746dEsHTDP5EZ+fIoMuMYwtA+i7Scwwc/R1JeuX3GsbaruY4ZH
-  /kgQICnDfNOPy0/75eW4iuxqS3JTarx/D185SQKBgAkXfUkBEnEjRACDYM6EyIlN
-  JasCvfTvbZKuTW9nNsvzGwUnKMFioDtAx4XEFGkR/2vpnO7JG6zvadluGd0pEl0y
-  tNTxg2dcdCMIgr2uEVERzZI1IwfIAtrdqA5LsmkzTfG4bPNoX6hquQDG7GU6Lq9z
-  bf+EzDurHTSfl7yHMn6RAoGAdnbWAmMEDgUsIMu30XyCyDUK2dA2tmzP2IC+K829
-  qo06JAtSbCaaHKF+zn9eQ0VtuqahdraDAvmt/a2ZzydOs9yD2vW1L2Km300LBK9B
-  cAlXVABhJUonAzuZuXzBKFZSrBN5qRPOYJvhAJ+wRzRlk7q6X4cZl84OPu0abUJ+
-  XekCgYAgJAjqNGSNZXWszVKOBE6e2LR0yG/wk7IEORBcv+j1D35O8VBZ52HSOw9l
-  6A4gpw+tQ0PJ2+uTWc4ZEdwzDpZL4fXdUVy1a0gLF0DYb7Jh9mLKZ3rFXVgN4nK7
-  b7DSpeGAHPLlJZLEfgulf5Xp5lgG4ysMT4AzAuQz2PlbsGFIYw==
-  -----END RSA PRIVATE KEY-----`,
+  accessTokenPublicKey: ``,
+  refreshTokenPublicKey: ``,
+  accessTokenPrivateKey: ``,
+  refreshTokenPrivateKey: ``,
 }

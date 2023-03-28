@@ -19,12 +19,14 @@ export async function createUserSessionHandler(req: Request, res: Response) {
     // Create a token
     const accessToken = signJwt(
       {...user, session: session._id},
+      "accessTokenPrivateKey",
       {expiresIn: config.get('accessTokenTtl')} //15 minutes
     );
 
     // Create a refresh token
     const refreshToken = signJwt(
       {...user, session: session._id},
+      "refreshTokenPrivateKey",
       {expiresIn: config.get('accessTokenTtl')} //15 minutes
     );
 
@@ -42,7 +44,8 @@ export async function createUserSessionHandler(req: Request, res: Response) {
 
 export async function getUserSessionHandler(req: Request, res: Response) {
  const userId = res.locals.user._id;
- const sessions = await findSessions({user: userId, valid: false});
+ console.log(res.locals.user);
+ const sessions = await findSessions({user: userId, valid: true});
 
  return res.send(sessions);
 }
